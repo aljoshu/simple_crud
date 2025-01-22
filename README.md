@@ -27,7 +27,9 @@ Ganti sesuai dengan db yang anda ingin gunakaan, kebetulan saya menggunakan MySQ
 
 4. php artisan key:generate
 
-5. php artisan migrate --seed
+5. php artisan migrate
+    saya tidak membuat seeder untuk generate datanya ke dalam db, 
+    jika ingin generate datanya, bisa menggunakan tombol di page Products/ CRUD Page bernama "Import Products"
 
 6. Pastikan folder berikut memiliki izin tulis:
     storage
